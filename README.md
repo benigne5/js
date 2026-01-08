@@ -41,7 +41,7 @@
         <section class="hero-banner">
             <div class="carousel-container">
                 <img src="benigne.jpg" alt="Stunning mountain landscape" class="carousel-image active">
-                <img src="Check my profile for more aesthetic bedroom ideas_.jpg" alt="Vibrant city street at night" class="carousel-image">
+                <img src="download(6).jpg" alt="Vibrant city street at night" class="carousel-image">
                 <img src="download (5).jpg" alt="Tropical beach with clear water" class="carousel-image">
 
                 <div class="hero-content">
