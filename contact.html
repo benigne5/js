@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | Brickly Travel</title>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700;800&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">Brickly Travel</div>
+        <nav>
+            <button class="nav-toggle" id="nav-toggle">☰</button>
+            <ul class="nav-links" id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="package.html">Packages</a></li>
+                <li class="current"><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="contact-form-section">
+            <h2>Get in Touch with Brickly</h2>
+            <p>Tell us about your dream trip, and we'll help you build the perfect itinerary.</p>
+
+            <form id="inquiry-form" action="#" method="POST">
+                
+                <fieldset>
+                    <legend>Your Details</legend>
+
+                    <div class="form-group">
+                        <label for="name">Full Name: *</label>
+                        <input type="text" id="name" name="fullName" required placeholder="full name">
+                        <span class="error-message" id="name-error"></span>
+                    </div>
+    
+                    <div class="form-group">
+                        <label for="email">Email Address: *</label>
+                        <input type="email" id="email" name="emailAddress" required placeholder="email">
+                        <span class="error-message" id="email-error"></span>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="phone">Phone Number (Optional):</label>
+                        <input type="tel" id="phone" name="phoneNumber" placeholder="">
+                    </div>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Your Trip</legend>
+
+                    <div class="form-group">
+                        <label for="inquiry-type">Type of Inquiry: *</label>
+                        <select id="inquiry-type" name="inquiryType" required>
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="package">Pre-Designed Package Inquiry</option>
+                            <option value="bespoke">Bespoke Trip Planning</option>
+                            <option value="general">General Question</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Your Message: *</label>
+                        <textarea id="message" name="userMessage" rows="6" required placeholder="tell us what you want to achieve most
+                        "></textarea>
+                        <span class="error-message" id="message-error"></span>
+                    </div>
+                </fieldset>
+
+                <button type="submit" class="btn-primary">Send Inquiry</button>
+
+            </form>
+        </section>
+
+        <section class="business-details">
+            <article class="contact-info">
+                <h2>Our Contact Details</h2>
+                <ul class="contact-list">
+                    <li>**Email:** <a href="mailto:hello@bricklytravel.com">hello@bricklytravel.com</a></li>
+                    <li>**Phone:** 0793559294</li>
+                    <li>**Office (By Appointment Only):** 101 Global Gateway, Suite 400, Travel City, WA 98101</li>
+                </ul>
+            </article>
+
+            <article class="location-map">
+                <h3>Our Location</h3>
+                <div class="map-placeholder">
+                    <p>Map view is available <a href="#" target="_blank">here</a>.</p>
+                </div>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Brickly Travel Agency. All Rights Reserved.</p>
+        <ul class="footer-links">
+            <li><a href="about.html">Our Story</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="#">Privacy Policy</a></li>
+        </ul>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
