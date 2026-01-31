@@ -122,4 +122,5 @@ function setupFormValidation() {
             this.reset();
         }
     });
+
 }
